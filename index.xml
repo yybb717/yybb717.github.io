@@ -17,7 +17,16 @@
       <pubDate>Tue, 21 Jan 2020 20:13:11 +0800</pubDate>
       
       <guid>http://example.org/posts/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</guid>
-      <description>大家好 我的博客开通了。希望大家喜欢。</description>
+      <description>大家好2 我的博客开通了。希望大家喜欢。</description>
+    </item>
+    
+    <item>
+      <title>第二篇博客</title>
+      <link>http://example.org/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Tue, 21 Jan 2020 20:13:11 +0800</pubDate>
+      
+      <guid>http://example.org/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
+      <description>我的第二篇博客 又写了一篇博客</description>
     </item>
     
   </channel>
