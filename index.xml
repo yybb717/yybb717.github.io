@@ -6,10 +6,19 @@
     <description>Recent content on yy的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Wed, 22 Jan 2020 13:40:19 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jan 2020 14:09:08 +0800</lastBuildDate>
     
 	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>第四篇博客</title>
+      <link>http://example.org/posts/%E7%AC%AC%E5%9B%9B%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Wed, 22 Jan 2020 14:09:08 +0800</pubDate>
+      
+      <guid>http://example.org/posts/%E7%AC%AC%E5%9B%9B%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
+      <description>啦啦啦 </description>
+    </item>
     
     <item>
       <title>第三篇博客</title>
