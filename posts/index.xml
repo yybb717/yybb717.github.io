@@ -35,7 +35,15 @@
       <pubDate>Tue, 21 Jan 2020 20:13:11 +0800</pubDate>
       
       <guid>http://example.org/posts/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</guid>
-      <description>大家好2 我的博客开通了。希望大家喜欢。</description>
+      <description>一、文档流 （一）知识准备  最新的HTML5已经不把元素一棒子打死的分为行内元素和块级元素了。因为任何元素都可以修改变成行内元素或者块级元素。当display：inline时，为行内元素；当display：block时，为块级元素。当display：inline-block时，为inline-block元素 把纯文本文字当成一个行内元素 别在inline元素中加block元素，不然你会晕倒。  （二）流动方向  inline元素从左到右，到达最右边才会换行，可能把一个元素从中间断开。   如果存在横滚动条，inline元素只在在第一屏显示，拉动横滚动条会看见第一屏之外为空白  block元素从上到下，每一个都另起一行。 inline-block元素从左到右，但不会把一个元素从中间断开。  （三）宽度  inline元素宽度为内部inline元素之和，不可用width指定。 block元素默认自动计算宽度，注意不是100%，而是能有多宽有多宽。可以用width指定（比如在标签里加上属性sytle=&amp;quot;width: 100px;&amp;quot;）   注：只有极少数情况才可以吧width指定为100%，所以一般别乱用100%  inline-block元素宽度为内部inline元素之和，可以用width指定。  （四）高度  inline元素的（实际）高度由line-height（行高）间接确定，不能用height指定。   用了间接是因为有时候改变了字体会把设置好的行高改变一点，具体参考文章。 如果给inline元素加上了内边距padding，改变的只是可视高度，不是这个inline元素的实际高度。 如图4  block元素的高度由内部文档流元素决定，可以用height指定.如图5 inline-block元素的高度由内部文档流元素决定，可以用height指定  图4
+图5
+（五）overflow溢出 1.定义 当内容的高度或宽度大于容器的高度或宽度，内容就会溢出。如图6
+图6
+2.用overflow来设置是否显示滚动条 （1） auto：灵活设置，超过才有滚动条
+（2） scroll：一直显示滚动条
+（3）hidden：直接隐藏溢出部分
+（4）overflow：直接显示溢出部分 （六）脱离文档流 1.概念 有些元素可以不在文档流中，这时block元素高度就不会把这些元素计入其中。
+2. 脱离文档流的方法  方法一：position: absolute 方法二：float:left or right or both  二、盒模型 （一）定义 1.元素  margin：外边距 border：边框 padding：内边距 content：内容 width：宽度  2.</description>
     </item>
     
     <item>
@@ -44,7 +52,7 @@
       <pubDate>Tue, 21 Jan 2020 20:13:11 +0800</pubDate>
       
       <guid>http://example.org/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
-      <description>我的第二篇博客 又写了一篇博客</description>
+      <description>我的第二篇博客 又写了一篇博客 </description>
     </item>
     
   </channel>
