@@ -30,6 +30,15 @@
     </item>
     
     <item>
+      <title>css文档流和盒模型</title>
+      <link>http://example.org/posts/css%E6%96%87%E6%A1%A3%E6%B5%81%E5%92%8C%E7%9B%92%E6%A8%A1%E5%9E%8B/</link>
+      <pubDate>Tue, 21 Jan 2020 20:13:11 +0800</pubDate>
+      
+      <guid>http://example.org/posts/css%E6%96%87%E6%A1%A3%E6%B5%81%E5%92%8C%E7%9B%92%E6%A8%A1%E5%9E%8B/</guid>
+      <description>一、文档流 （一）知识准备  最新的 HTML5 已经不把元素一棒子打死的分为行内元素和块级元素了。因为任何元素都可以修改变成行内元素或者块级元素。当 display：inline 时，为行内元素；当 display：block 时，为块级元素。当 display：inline-block 时，为 inline-block 元素 把纯文本文字当成一个行内元素 别在 inline 元素中加 block 元素，不然你会晕倒。  （二）流动方向  inline 元素从左到右，到达最右边才会换行，可能把一个元素从中间断开。   如果存在横滚动条，inline 元素只在在第一屏显示，拉动横滚动条会看见第一屏之外为空白  block 元素从上到下，每一个都另起一行。 inline-block 元素从左到右，但不会把一个元素从中间断开。  （三）宽度  inline 元素宽度为内部 inline 元素之和，不可用 width 指定。 block 元素默认自动计算宽度，注意不是 100%，而是能有多宽有多宽。可以用 width 指定（比如在标签里加上属性sytle=&amp;quot;width: 100px;&amp;quot;）   注：只有极少数情况才可以吧 width 指定为 100%，所以一般别乱用 100%  inline-block 元素宽度为内部 inline 元素之和，可以用 width 指定。  （四）高度  inline 元素的（实际）高度由 line-height（行高）间接确定，不能用 height 指定。   用了间接是因为有时候改变了字体会把设置好的行高改变一点，具体参考文章。 如果给 inline 元素加上了内边距 padding，改变的只是可视高度，不是这个 inline 元素的实际高度。 如图 4  block 元素的高度由内部文档流元素决定，可以用 height 指定.</description>
+    </item>
+    
+    <item>
       <title>开博大吉</title>
       <link>http://example.org/posts/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</link>
       <pubDate>Tue, 21 Jan 2020 20:13:11 +0800</pubDate>
